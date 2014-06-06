@@ -28,8 +28,3 @@ This is an existing project and will be executed over a number of roll outs in a
 I have recieved the first set of changes and will be posting them in a different post.
 
 Stay tuned!
-
-{% instagram %}
-###{{ item.caption.text }} {{ item.date.text}}
-![{{ item.caption.text }}]({{ item.images.standard_resolution.url }} "{{ item.caption.text }}") 
-{% endinstagram %}
