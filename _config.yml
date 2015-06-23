@@ -6,14 +6,14 @@ pygments:         true
 permalink:        :title
 
 # Setup
-title:            ashga
-tagline:          'Web/Mobile App Consultant'
-description:      'A place where I am composing my thoughts and experiences in the form of a good old fashion blog :)'
+title:            Ash Ganatra
+tagline:          'Scrum Master / IT Consultant'
+description:      'A place where I am composing my thoughts and experiences in the form of a blog :)'
 url:              http://ashga.github.io
 
 author:
   name:           'Ash Ganatra'
-  url:            https://twitter.com/ashga
+  url:            https://blog.ashga.io
 
 paginate:         5
 
