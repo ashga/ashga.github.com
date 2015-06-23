@@ -11,8 +11,8 @@ module Jekyll
     end
  
     def iframe_for(hash)
-      url = "//instagram.com/p/#{hash}/embed/"
-      "<iframe src='#{url}' frameborder='0' scrolling='no' allowtransparency='true'></iframe>"
+      "http://api.instagram.com/oembed?url=http://instagr.am/p/#{hash}"
+      
     end
  
   end
