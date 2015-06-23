@@ -553,3 +553,28 @@ a.pagination-item:hover {
   padding-bottom: 25px;
   padding-top: 25px;
 }
+
+#thumb-img img {
+  margin: 0 auto;
+  width: 150px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
+
+#thumb-img {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
