@@ -7,10 +7,13 @@
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
-  <div class="sidebar-item">
-    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  <div class="sidebar-item center">
+  <div id="thumb-img">
+        <img class="img-circle img-responsive" src="img/user-1.jpg" alt="">
+        <h5>Ash Ganatra</h5>
+    </div>
   </div>
-  <nav class="sidebar-nav">
+    <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
 
     {% comment %}
@@ -27,7 +30,9 @@
       {% endif %}
     {% endfor %}
   </nav>
-
+  <div class="sidebar-item center">
+    <div class="fb-like" data-href="http://blog.ashga.io/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </div>
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
