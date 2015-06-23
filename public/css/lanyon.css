@@ -543,3 +543,13 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+.center{
+  text-align: center;
+}
+
+#thumb-img {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
